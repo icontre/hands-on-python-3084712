@@ -28,7 +28,12 @@ with open("laureates.csv", "r") as f:
 
 laureates_beginning_with_a = []
 # LinkedIn learner code here
+# create a JSON file with the laureates whose name starts with 'a'
 
+for person in laureates
+    if person[name][1] == "a":
+        laureates_beginning_with_a.append(person)   
+# end of my code   
 
 with open("laureates.json", "w") as f:
     json.dump(laureates_beginning_with_a, f, indent=2)
